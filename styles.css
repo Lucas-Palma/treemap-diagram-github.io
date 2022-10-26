@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Jost', sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(90deg, rgb(185, 185, 185), rgb(255, 250, 250));
+}
+
+heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+
+#title {
+    font-size: 3rem;
+    margin-bottom: 0.75rem;
+}
+
+.tile-text {
+    font-size: 10px;
+    font-weight: bold;
+}
+
+div.tooltip {
+    position: absolute;
+    padding: 10px;
+    font: 12px Arial;
+    background: rgba(255, 254, 254, 0.9);
+    box-shadow: 1px 1px 5px 4px rgba(0, 0, 0, 0.6);
+    border: none;
+    border-radius: 5px;
+    pointer-events: none;
+  }
+
+  #legend {
+    font-size: 20px;
+    text-align: center;
+    display: block;
+    margin: auto;
+    padding-bottom: 5px;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+  }
+  
